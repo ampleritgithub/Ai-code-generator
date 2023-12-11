@@ -6,7 +6,7 @@ from typing import Type
 
 load_dotenv()
 
-openai_api_key = os.getenv("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")
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 import instructor
 
